@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Just no",
+    "description": "Annihilate a couple predetermined cookie consent forms",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "main.js"
+            ]
+        }
+    ]
+}
