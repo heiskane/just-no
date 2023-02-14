@@ -1,5 +1,5 @@
 const BANNED_CLASSES = ["js-consent-banner", "consent-banner"];
-const BANNED_IDS = ["CybotCookiebotDialog"];
+const BANNED_IDS = ["CybotCookiebotDialog", "gdpr-new-container", "sp-cc"];
 
 function purge_elements_by_class(class_name) {
   let consent_banners = document.getElementsByClassName(class_name);
